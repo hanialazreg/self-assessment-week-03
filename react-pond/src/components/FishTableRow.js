@@ -6,8 +6,8 @@ class FishTableRow extends React.Component {
     };
   }
 
-  // Currently, the image being displayed is hardcoded from tinyurl.com 
-  render() {
+  // Currently, the image being displayed is hardcoded from tinyurl.com
+  ReactDom.render() {
     return (
       <tr onClick={() => this.setState({showDescription: !this.state.showDescription})}>
         <td className="fish-name">Nemo</td>
